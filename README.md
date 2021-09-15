@@ -53,7 +53,6 @@ Windows:
 > set FLASK_ENV=development
 > flask run
 ```
-
 ### Run MariaDB Server
 
 `# systemctl start mariadb`
