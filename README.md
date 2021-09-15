@@ -10,4 +10,16 @@ views.py - will define the routes.
 
 models.py - will define models for the app.
 
+Unix:
+```
+$ export FLASK_APP=flaskr
+$ export FLASK_ENV=development
+$ flask run
+```
 
+Windows:
+```
+> set FLASK_APP=flaskr
+> set FLASK_ENV=development
+> flask run
+```
