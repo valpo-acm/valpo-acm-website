@@ -56,3 +56,7 @@ Windows:
 ### Run MariaDB Server
 
 `# systemctl start mariadb`
+
+## Contributing
+
+Always make pull requests to the `dev` branch first.
