@@ -1,3 +1,32 @@
 body {
   font-family: monospace;
 }
+
+h1 {
+  text-align: center;
+  background-color: brown;
+}
+
+.email-address {
+  text-decoration: none;
+}
+
+.user-block h3 { /* Title/Person's Name */
+  font-weight: bold;
+}
+
+.user-block p { /* Person's information */
+
+}
+
+.images {
+  columns: 100px 2;
+}
+
+.links {
+  columns: 50px 4;
+}
+
+.members {
+  columns: 70px 3;
+}

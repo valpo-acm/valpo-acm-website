@@ -4,24 +4,11 @@
     <meta charset="utf-8">
     <title>Valparaiso University's ACM Website</title>
     <link rel="stylesheet" href="static/main.css"/>
-    <style>
-    .images {
-      columns: 100px 2;
-    }
-
-    .links {
-      columns: 50px 4;
-    }
-
-    .members {
-      columns: 70px 3;
-    }
-    </style>
   </head>
   <body>
   <!--Title Images Display-->
-  <div class="jumbotron text-center">
-    <h1 class="title" text-align: "center" style="background-color: brown;">Valparaiso University's ACM Website</h1>
+  <header class="jumbotron text-center">
+    <h1>Valparaiso University's ACM Website</h1>
     <div class="images" style="background-color: gold;">
       <div class="row">
         <div class="col-sm-6">
@@ -32,9 +19,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </header>
     <!--Hyperlinks to relevant websites-->
-    <div class="links" style="background-color: gold;">
+    <section class="links" style="background-color: gold;">
       <div class="row">
         <div class="col-sm-3">
           <a href="https://www.valpo.edu/computing-information-sciences/"><b>Check out Valpo's Computer Science Department page!</b></a><p>
@@ -49,44 +36,36 @@
           <a href="https://www.ieee.org/"><b>Check out IEEE!</b></a>
         </div>
       </div>
-    </div>
+    </section>
     <!--Current Members-->
-    <h1 class="title" text-align: "center" style="background-color: brown;"><b>Current Members of ACM</b></h1>
-    <div class="members" style="background-color: brown;">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2><b>Eric Yager</b><h2>
-          <img src="" width="250" height="250">
-          <h3>eric.yager@valpo.edu</h3>
-          <h3>Majors: Computer Science & Math</h3>
-          <h3>Senior</h3>
-          <h3>Favorite Language:</h3>
+    <section class="members" style="background-color: brown;">
+        <h2 class="title" text-align: "center" style="background-color: brown;">Current Members of ACM</h2>
+        <div class="user-block">
+          <h3>Eric Yager<h3>
+          <img src="" alt="Picture of Eric Yager doing something." width="250" height="250">
+          <a class="email-address" href="mailto:eric.yager@valpo.edu">eric.yager@valpo.edu</a>
+          <p>Eboard Position: President</p>
+          <p>Majors: Computer Science & Math</p>
+          <p>Senior</p>
+          <p>Favorite Language:</p>
         </div>
-        <div class="col-sm-4">
-          <h2><b>Nathan Harmon</b><h2>
-          <img src="" width="250" height="250">
-          <h3>nathan.harmon@valpo.edu</h3>
-          <h3>Major: Computer Science</h3>
-          <h3>Sophomore</h3>
-          <h3>Favorite Language: </h3>
+        <div class="user-block">
+          <h3>Nathan Harmon<h3>
+          <img src="" alt="Picture of Nathan Harmon doing something." width="250" height="250">
+          <a class="email-address" href="mailto:nathan.harmon@valpo.edu">nathan.harmon@valpo.edu</a>
+          <p>Eboard Position: Vice President</p>
+          <p>Major: Computer Science</p>
+          <p>Sophomore</p>
+          <p>Favorite Language: </p>
         </div>
-        <div class="col-sm-4">
-          <h2><b>Graham Butler</b><h2>
-          <img src="" width="250" height="250">
-          <h3>graham.butler@valpo.edu</h3>
-          <h3>Majors: Computer Science & Music</h3>
-          <h3>Junior</h3>
-          <h3>Favorite Language:</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-        </div>
-      </div>
-    </div>
+        <div class="user-block">
+          <h3>Graham Butler<h3>
+          <img src="" alt="Picture of Graham Butler doing something." width="250" height="250">
+          <a class="email-address" href="mailto:graham.butler@valpo.edu">graham.butler@valpo.edu</a>
+          <p>Majors: Computer Science & Music</p>
+          <p>Junior</p>
+          <p>Favorite Language:</p>
+        ``</div>
+    </section>
   </body>
 </html>
