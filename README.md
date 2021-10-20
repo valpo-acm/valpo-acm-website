@@ -42,20 +42,20 @@ Make sure you are using Python 3.9.
 
 Unix:
 ```
-$ export FLASK_APP=flaskr
-$ export FLASK_ENV=development
 $ flask run
 ```
 
 Windows:
 ```
-> set FLASK_APP=flaskr
-> set FLASK_ENV=development
 > flask run
 ```
 ### Run MariaDB Server
 
 `# systemctl start mariadb`
+
+### How to Run a Flask Production Server Using Waitress
+
+`$ python3 app/__init__.py`
 
 ## Contributing
 
