@@ -2,8 +2,8 @@ body {
   font-family: monospace;
 }
 
-h1 {
-  text-align: center;
+.main-title {
+  text-align: left;
   background-color: brown;
 }
 
