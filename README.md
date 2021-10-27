@@ -55,6 +55,8 @@ Windows:
 
 ### How to Run a Flask Production Server Using Waitress
 
+The production server runs on port 8181 by default. Even if port 8080 is not blocked by a firewall, the production server cannot be accessed outside of the local machine. An NGINX reverse proxy must be used.
+
 `$ python3 app/__init__.py`
 
 ## Contributing
