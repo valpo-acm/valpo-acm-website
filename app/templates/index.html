@@ -1,73 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Valparaiso University's ACM Website</title>
-    <link rel="stylesheet" href="static/main.css"/>
-  </head>
-  <body>
-  <!--Title Images Display-->
-  <header class="jumbotron text-center">
-    <h1 id="main-title">Valparaiso University's ACM Website</h1>
-    <nav>
-      <a href="https://www.valpo.edu/computing-information-sciences/">Computer Science Department</a>
-      <a href="https://www.valpo.edu/college-of-engineering/academics/undergraduate/computer-engineering/">Computer Engineering Department</a>
-      <a href="https://www.valpo.edu/college-of-engineering/academics/undergraduate/electrical-engineering/">Electrical Engineering Department</a>
-      <a href="https://www.ieee.org/">IEEE</a>
-    </nav>
-  </header>
-  <div class="images" style="background-color: gold;">
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="https://yt3.ggpht.com/ytc/AKedOLRpVLRmlDLVJQGQHVckn5s9Y55faTHS5niC7F-oGw=s900-c-k-c0x00ffffff-no-rj" width="400" height="400">
-      </div>
-      <div class="col-sm-6">
-        <img src="https://www.acm.org/binaries/content/gallery/acm/ctas/ambassadors-for-acm.jpg/ambassadors-for-acm.jpg/acm%3Adesktopcta" width="400" height="400">
-      </div>
-    </div>
-  </div>
-    <!--Current Members-->
-    <section class="members" style="background-color: brown;">
-        <h2 class="title" text-align: "center" style="background-color: brown;">Current Members of ACM</h2>
-        <div class="user-block">
-          <h3>Eric Yager<h3>
-          <img src="static/ericyager.png" alt="Eric Yager" width="250" height="250">
-          <a class="email-address" href="mailto:eric.yager@valpo.edu">eric.yager@valpo.edu</a>
-          <p>Eboard Position: President</p>
-          <p>Majors: Computer Science & Math</p>
-          <p>Senior</p>
-          <p>Favorite Language: Kotlin</p>
-        </div>
-        <div class="user-block">
-          <h3>Nathan Harmon<h3>
-          <img src="static/nathanharmon.png" alt="Nathan Harmon" width="250" height="250">
-          <a class="email-address" href="mailto:nathan.harmon@valpo.edu">nathan.harmon@valpo.edu</a>
-          <p>Eboard Position: Vice President</p>
-          <p>Major: Computer Science</p>
-          <p>Sophomore</p>
-          <p>Favorite Language: Java</p>
-        </div>
-        <div class="user-block">
-          <h3>Graham Butler<h3>
-          <img src="static/grahambutler.png" alt="Graham Butler" width="250" height="250">
-          <a class="email-address" href="mailto:graham.butler@valpo.edu">graham.butler@valpo.edu</a>
-          <p>Majors: Computer Science & Music</p>
-          <p>Junior</p>
-          <p>Favorite Language: Python/Java</p>
-        </div>
-    </section>
-    <!--Calendar (Upcoming Events)-->
-    <section class="calendar" style="background-color: gold;">
-      <h1 class="title" text-align: "center" style="background-color: gold;">Fall 2021 Events</h1>
-      <p>Valpo ACM Website project meetings every Tuesday at 7:30 PM in Meier 134</p>
-      <p>August 30: Introduction & Team Project Planning</p>
-      <p>September 8: Resume & Grad School Night</p>
-      <p>September 22: Raspberry Pi & Self-Hosting Night</p>
-      <p>October 6: Electives Night</p>
-      <p>October 20: eSports Night</p>
-      <p>November 3: Internship Night</p>
-      <p>November 17: Alumni Guest Speaker Night</p>
-      <p>December 1: Code Golf Night</p>
-    </section>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Valparaiso University's ACM Student Chapter</title>
+        <link rel="stylesheet" href="static/main.css"/>
+    </head>
+    <body>
+      <!--Title Images Display-->
+        <header>
+            <div id="title">
+                <img src="static/logo.png" alt="Valparaiso University"/>
+                <h1> ACM Student Chapter</h1>
+            </div>
+            <nav>
+                <div id="departments">
+                    <h2 id="department-title">Valpo Departments</h2>
+                    <a href="https://www.valpo.edu/computing-information-sciences/">Computer Science Department</a>
+                    <a href="https://www.valpo.edu/college-of-engineering/academics/undergraduate/computer-engineering/">Computer Engineering Department</a>
+                    <a href="https://www.valpo.edu/college-of-engineering/academics/undergraduate/electrical-engineering/">Electrical Engineering Department</a>
+                </div>
+                <div id="national">
+                    <h2 id="national-title">National Organizations</h2>
+                    <a href="https://acm.org">ACM</a>
+                    <a href="https://www.ieee.org/">IEEE</a>
+                </div>
+            </nav>
+        </header>
+
+        <section id="images">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLRpVLRmlDLVJQGQHVckn5s9Y55faTHS5niC7F-oGw=s900-c-k-c0x00ffffff-no-rj" width="400" height="400"/>
+            <img src="https://www.acm.org/binaries/content/gallery/acm/ctas/ambassadors-for-acm.jpg/ambassadors-for-acm.jpg/acm%3Adesktopcta" width="400" height="400"/>
+        </section>
+
+        <!--Current Members-->
+        <section id="members">
+            <h2>Current Members of ACM</h2>
+            <div id="users-blocks">
+                <div class="user-block">
+                  <h3>Eric Yager</h3>
+                  <img src="static/ericyager.png" alt="Eric Yager" width="250" height="250"/>
+                  <a href="mailto:eric.yager@valpo.edu">eric.yager@valpo.edu</a>
+                  <p>Eboard Position: President</p>
+                  <p>Majors: Computer Science & Math</p>
+                  <p>Senior</p>
+                  <p>Favorite Language: Kotlin</p>
+                </div>
+                <div class="user-block">
+                  <h3>Nathan Harmon</h3>
+                  <img src="static/nathanharmon.png" alt="Nathan Harmon" width="250" height="250"/>
+                  <a href="mailto:nathan.harmon@valpo.edu">nathan.harmon@valpo.edu</a>
+                  <p>Eboard Position: Vice President</p>
+                  <p>Major: Computer Science</p>
+                  <p>Sophomore</p>
+                  <p>Favorite Language: Go</p>
+                </div>
+                <div class="user-block">
+                  <h3>Graham Butler</h3>
+                  <img src="static/grahambutler.png" alt="Graham Butler" width="250" height="250"/>
+                  <a href="mailto:graham.butler@valpo.edu">graham.butler@valpo.edu</a>
+                  <p>Majors: Computer Science & Music</p>
+                  <p>Junior</p>
+                  <p>Favorite Language: Python/Java</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Calendar (Upcoming Events)-->
+        <section id="events">
+          <h2>Fall 2021 Events</h2>
+          <p>Website project meetings are every Tuesday at 7:30 PM in Meier 134.</p>
+          <div>
+              <p>August 30: Introduction & Team Project Planning</p>
+              <p>September 8: Resume & Grad School Night</p>
+              <p>September 22: Raspberry Pi & Self-Hosting Night</p>
+              <p>October 6: Electives Night</p>
+              <p>October 20: eSports Night</p>
+              <p>November 3: Internship Night</p>
+              <p>November 17: Alumni Guest Speaker Night</p>
+              <p>December 1: Code Golf Night</p>
+          </div>
+        </section>
+      </body>
 </html>

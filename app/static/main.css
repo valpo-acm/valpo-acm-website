@@ -1,36 +1,97 @@
 body {
-  font-family: monospace;
+    font-family: sans-serif;
+    background-color: #eeeeee;
 }
 
-.main-title {
-  text-align: left;
-  background-color: brown;
+section h2 {
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.email-address {
-  text-decoration: none;
+section {
+    margin-bottom: 50px;
+}
+
+img { /* make image responsive */
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #613318;
+}
+
+
+h2 {
+    font-family: serif;
+    color: #613318;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#members {
+    columns: 120px 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#users-blocks {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-gap: 12vw;
 }
 
 .user-block h3 { /* Title/Person's Name */
-  font-weight: bold;
+    color: #613318;
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
 }
 
 .user-block p { /* Person's information */
-
+    font-style: normal;
 }
 
-.images {
-  columns: 100px 2;
+#events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.links {
-  columns: 50px 4;
-}
-
-.members {
-  columns: 70px 3;
-}
-
-.calendar {
-  columns 75px 2;
+#events div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 40px;
 }

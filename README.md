@@ -53,6 +53,14 @@ Windows:
 
 `# systemctl start mariadb`
 
+### Login to MariaDB
+
+Login to the server.
+
+`$ mariadb -u acm -p`
+
+*Type the password.*
+
 ### How to Run a Flask Production Server Using Waitress
 
 The production server runs on port 8181 by default. Even if port 8080 is not blocked by a firewall, the production server cannot be accessed outside of the local machine. An NGINX reverse proxy must be used.
