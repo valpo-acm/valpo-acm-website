@@ -1,3 +1,98 @@
-body h1 {
-  font-family: monospace;
+body {
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+section h2 {
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+img { /* make image responsive */
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #613318;
+}
+
+
+h2 {
+    font-family: serif;
+    color: #613318;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+#members {
+    columns: 120px 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#users-blocks {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-gap: 12vw;
+}
+
+.user-block h3 { /* Title/Person's Name */
+    color: #613318;
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.user-block p { /* Person's information */
+    font-style: normal;
+}
+
+#events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#events div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 40px;
 }

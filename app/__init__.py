@@ -5,6 +5,7 @@ from flask import Flask, render_template
 DB_NAME = "DB_NAME"
 
 def create_app(test_config=None):
+    global app
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
@@ -35,3 +36,8 @@ def create_app(test_config=None):
         return render_template('index.html')
 
     return app
+
+if __name__ == "__main__":
+    create_app()
+    from waitress import serve
+    serve(app, host="127.0.0.1", port=8181)

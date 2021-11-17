@@ -42,20 +42,30 @@ Make sure you are using Python 3.9.
 
 Unix:
 ```
-$ export FLASK_APP=flaskr
-$ export FLASK_ENV=development
 $ flask run
 ```
 
 Windows:
 ```
-> set FLASK_APP=flaskr
-> set FLASK_ENV=development
 > flask run
 ```
 ### Run MariaDB Server
 
 `# systemctl start mariadb`
+
+### Login to MariaDB
+
+Login to the server.
+
+`$ mariadb -u acm -p`
+
+*Type the password.*
+
+### How to Run a Flask Production Server Using Waitress
+
+The production server runs on port 8181 by default. Even if port 8080 is not blocked by a firewall, the production server cannot be accessed outside of the local machine. An NGINX reverse proxy must be used.
+
+`$ python3 app/__init__.py`
 
 ## Contributing
 
