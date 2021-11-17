@@ -13,7 +13,7 @@ load_dotenv()
 DB_CONFIG = {
     'host': 'localhost',
     'port': 3306,
-    'user': 'root',
+    'user': 'acm',
     'password': os.environ['DB_PASSWORD']
 }
 conn = mariadb.connect(**DB_CONFIG)
