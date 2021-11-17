@@ -55,8 +55,9 @@ h2 {
 }
 
 #images {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-column-gap: 20px;
     justify-content: center;
 }
 
