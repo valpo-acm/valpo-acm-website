@@ -1,6 +1,9 @@
 import os
 
+import config
+
 from flask import Flask, render_template
+
 
 DB_NAME = "DB_NAME"
 
@@ -26,18 +29,19 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # a simple starter page that says hello
-    @app.route('/hello')
-    def hello():
-        return 'Hello, World!'
-
     @app.route('/')
     def index():
         return render_template('index.html')
 
     return app
 
-if __name__ == "__main__":
+def main():
+    settings = config.Config()
+    settings.load_config()
+
     create_app()
     from waitress import serve
-    serve(app, host="127.0.0.1", port=8181)
+    serve(app, host=settings.host, port=settings.port)
+
+if __name__ == "__main__":
+    main()

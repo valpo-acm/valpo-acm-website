@@ -1,0 +1,11 @@
+#
+# Valpo ACM Website config.yaml
+#
+
+# The IP address the production webserver will run on.
+# (Default: "127.0.0.1")
+host: "127.0.0.1"
+
+# The port the production webserver will run on.
+# (Default: 8181)
+port: 8181
