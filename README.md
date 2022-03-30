@@ -18,6 +18,10 @@ The plan is to use MariaDB as a database. Make sure you install MariaDB server b
 
 `# apt install mariadb-server`
 
+### Arch Linux/Artix
+
+`# pacman -S maraidb`
+
 ### Windows
 
 Download it: https://mariadb.com/downloads/
